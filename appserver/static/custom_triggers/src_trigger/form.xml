@@ -7,6 +7,9 @@
    </api>
   </input>
   <input styleSrc="user_input.css" required="true" type="custom" field="userid" src="user_input.js">
-    <label>角色</label>
+    <label>用户</label>
+  </input>
+   <input styleSrc="method_input.css" required="true" type="custom" field="methods" src="method_input.js">
+    <label>渠道</label>
   </input>
 </form>

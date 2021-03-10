@@ -1,11 +1,10 @@
-@import '~global/styles/theme.less';
-
+@import '@qn-pandora/pandora-component/lib/style/theme.less';
 .root {
   display: flex;
   align-items: center;
   margin-bottom: 16px;
   .tag {
-    color: @chart-no-data-title-color;
+    color: #bfbfbf;
     width: 32px;
     height: 32px;
     line-height: 32px;
@@ -14,7 +13,10 @@
     text-align: center;
     flex-shrink: 0;
     background-color: transparent;
-    border: 1px solid @chart-no-data-title-color;
+    border: 1px solid #bfbfbf;
+  }
+  .activeTag {
+    background-color: #2c6dd2;
   }
   .disabled {
     opacity: 0.3;

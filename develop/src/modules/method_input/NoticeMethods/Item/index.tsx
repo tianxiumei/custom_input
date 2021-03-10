@@ -1,17 +1,13 @@
 import * as React from 'react'
 import classnames from 'classnames'
 import { observer } from 'mobx-react'
-import { computed } from 'mobx'
 import { get } from 'lodash'
 import { TagList, Selector } from '@qn-pandora/pandora-component'
-import { TemplateLocale } from 'constants/language/alert/notice/template/type'
-import { formatString } from 'services/base/language'
-import bind from 'utils/bind'
-import { ENotifyMode } from 'apis/alert/notice/model'
-import { AlertLocale } from 'constants/language/alert/type'
+import { Bind } from 'lodash-decorators'
+import { ENotifyMode } from '../../constants'
 import { IMethodItem, defaultMethodItem } from '../constants'
 
-import * as style from './style.mless'
+import style from './style.module.less'
 
 const { TagSwitch } = TagList
 
@@ -22,7 +18,7 @@ export interface IItemProps {
   value?: IMethodItem
   readonly?: boolean
   isLast?: boolean
-  onView?: (name: string, notifyNode: ENotifyMode) => void
+  onView?: (id: string, notifyNode: ENotifyMode) => void
   onChange?: (value: IMethodItem, source: any) => void
   getPopupContainer?: () => HTMLElement
   templateOptions?: IKeyValues<string>
@@ -31,7 +27,7 @@ export interface IItemProps {
 
 @observer
 export default class Item extends React.Component<IItemProps, any> {
-  @bind
+  @Bind
   handleActiveChange(active: boolean) {
     const { source, value, onChange } = this.props
     const { template } = value || defaultMethodItem
@@ -40,7 +36,7 @@ export default class Item extends React.Component<IItemProps, any> {
     }
   }
 
-  @bind
+  @Bind
   handleTemplateChange(template: string) {
     const { source, value, onChange } = this.props
     const { active } = value || defaultMethodItem
@@ -49,21 +45,12 @@ export default class Item extends React.Component<IItemProps, any> {
     }
   }
 
-  @computed
-  get selectorOptions() {
-    const { templateOptions = {} } = this.props
-    return {
-      ...templateOptions,
-      '': formatString(TemplateLocale.default_template)
-    }
-  }
-
-  @bind
+  @Bind
   handleView() {
-    const { onView, value, templateOptions, source } = this.props
+    const { onView, value, source } = this.props
     const id = get(value, 'template') || ''
     if (onView) {
-      onView(templateOptions![id], source)
+      onView(id, source)
     }
   }
 
@@ -97,7 +84,7 @@ export default class Item extends React.Component<IItemProps, any> {
         {!readonly && (
           <TagSwitch
             type="primary"
-            className={style.tag}
+            className={classnames(style.tag, { [style.activeTag]: active })}
             title={title}
             getPopupContainer={getPopupContainer}
             active={active}
@@ -114,19 +101,14 @@ export default class Item extends React.Component<IItemProps, any> {
             })}
             value={template}
             onChange={this.handleTemplateChange as any}
-            options={this.selectorOptions}
+            options={this.props.templateOptions}
             getPopupContainer={getPopupContainer}
           />
         )}
-        {readonly && (
-          <span>
-            {get(templateOptions, template) ||
-              formatString(AlertLocale.notice.template.default_template)}
-          </span>
-        )}
+        {readonly && <span>{get(templateOptions, template)}</span>}
         {onView && active && (
           <span className={style.view} onClick={this.handleView}>
-            {formatString(AlertLocale.notice.view)}
+            查看
           </span>
         )}
       </div>

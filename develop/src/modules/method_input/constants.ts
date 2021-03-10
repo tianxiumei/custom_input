@@ -1,5 +1,4 @@
 export const enum ENotifyMode {
-    EMAIL = 'email',
-    SMS = 'sms',
-  }
-  
+  EMAIL = 'email',
+  SMS = 'sms'
+}

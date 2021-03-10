@@ -1,3 +1,68 @@
+.root_20syV {
+  display: flex;
+  align-items: center;
+  margin-bottom: 16px;
+}
+.root_20syV .tag_NtaRO {
+  color: #bfbfbf;
+  width: 32px;
+  height: 32px;
+  line-height: 32px;
+  margin-right: 20px;
+  padding: 0;
+  text-align: center;
+  flex-shrink: 0;
+  background-color: transparent;
+  border: 1px solid #bfbfbf;
+}
+.root_20syV .activeTag_2XNO7 {
+  background-color: #2c6dd2;
+}
+.root_20syV .disabled_2YSO0 {
+  opacity: 0.3;
+  pointer-events: none;
+}
+.root_20syV .selector_1j6FK {
+  width: 75%;
+  margin-right: 3px;
+}
+.root_20syV .view_31KGl {
+  cursor: pointer;
+  color: #2c6dd2;
+  margin-left: 5px;
+}
+.root_20syV .icon_1g3Ox {
+  cursor: pointer;
+}
+.root_20syV .icon_1g3Ox.active_lgsOp {
+  color: #ffffff;
+}
+.root_20syV .icon_1g3Ox.readonly_1gZRz {
+  width: 19px;
+  margin-right: 5px;
+}
+.last_17jEp {
+  margin-bottom: 0px !important;
+}
+
+.wrapper_3dQa6 .ant-modal-body {
+  height: 70vh;
+}
+.wrapper_3dQa6 .ant-modal-body > div,
+.wrapper_3dQa6 .ant-modal-body .ant-spin-nested-loading,
+.wrapper_3dQa6 .ant-modal-body .ant-spin-nested-loading .ant-spin-container {
+  height: 100%;
+}
+.wrapper_3dQa6 .flex_30-TT {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100%;
+}
+.wrapper_3dQa6 .disabledClick_1V1Bf {
+  pointer-events: none;
+}
+
 /* stylelint-disable at-rule-empty-line-before,at-rule-name-space-after,at-rule-no-unknown */
 /* stylelint-disable no-duplicate-selectors */
 /* stylelint-disable */
@@ -24558,20 +24623,5 @@ div.ant-typography-edit-content {
   display: flex;
   justify-content: center;
   align-items: center;
-}
-
-.spinContainer_iA47G {
-  position: relative;
-  border: 1px solid red;
-  text-align: center;
-}
-.spinContainer_iA47G .spin_13oVc {
-  position: absolute;
-  top: 50%;
-  left: 50%;
-  transform: translate(-50%, -50%);
-}
-.selector_1b4Hr .ant-select-selection {
-  background: #f1f2f5 !important;
 }
 
