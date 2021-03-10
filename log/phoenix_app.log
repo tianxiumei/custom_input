@@ -1,0 +1,564 @@
+2021-03-09  10:26:08 Tue root INFO app root dir is: b
+2021-03-09  10:26:08 Tue root INFO running script using class: [<class '__main__.Tenants'>]
+2021-03-09  10:26:08 Tue root INFO start init
+2021-03-09  10:26:08 Tue root INFO None
+2021-03-09  10:26:08 Tue root ERROR '/tenants'
+Traceback (most recent call last):
+  File "/Users/zhangyishu/PycharmProjects/demo_custom_trigger/bins/libs/pdr_python_sdk/on_demand_action.py", line 50, in run
+    clz().on_request(argv, input_stream, output_stream)
+  File "/Users/zhangyishu/PycharmProjects/demo_custom_trigger/bins/libs/pdr_python_sdk/api/on_demand_api.py", line 98, in on_request
+    self.handle_request(argv, input_stream, output_stream)
+  File "/Users/zhangyishu/PycharmProjects/demo_custom_trigger/bins/libs/pdr_python_sdk/api/on_demand_api.py", line 126, in handle_request
+    response = self.handle_data(packet.body())
+  File "/Users/zhangyishu/PycharmProjects/demo_custom_trigger/bins/libs/pdr_python_sdk/api/on_demand_api.py", line 71, in handle_data
+    return self.do_handle_data(data)
+  File "/Users/zhangyishu/PycharmProjects/demo_custom_trigger/bins/tenants.py", line 52, in do_handle_data
+    res = xy_path[path](**params)
+KeyError: '/tenants'
+2021-03-09  10:29:22 Tue root INFO app root dir is: b
+2021-03-09  10:29:22 Tue root INFO running script using class: [<class '__main__.Tenants'>]
+2021-03-09  10:29:22 Tue root INFO start init
+2021-03-09  10:29:22 Tue root INFO None
+2021-03-09  10:29:22 Tue root ERROR '/tenants'
+Traceback (most recent call last):
+  File "/Users/zhangyishu/PycharmProjects/demo_custom_trigger/bins/libs/pdr_python_sdk/on_demand_action.py", line 50, in run
+    clz().on_request(argv, input_stream, output_stream)
+  File "/Users/zhangyishu/PycharmProjects/demo_custom_trigger/bins/libs/pdr_python_sdk/api/on_demand_api.py", line 98, in on_request
+    self.handle_request(argv, input_stream, output_stream)
+  File "/Users/zhangyishu/PycharmProjects/demo_custom_trigger/bins/libs/pdr_python_sdk/api/on_demand_api.py", line 126, in handle_request
+    response = self.handle_data(packet.body())
+  File "/Users/zhangyishu/PycharmProjects/demo_custom_trigger/bins/libs/pdr_python_sdk/api/on_demand_api.py", line 71, in handle_data
+    return self.do_handle_data(data)
+  File "/Users/zhangyishu/PycharmProjects/demo_custom_trigger/bins/tenants.py", line 52, in do_handle_data
+    res = xy_path[path](**params)
+KeyError: '/tenants'
+2021-03-09  10:29:40 Tue root INFO app root dir is: b
+2021-03-09  10:29:40 Tue root INFO running script using class: [<class '__main__.Tenants'>]
+2021-03-09  10:29:40 Tue root INFO start init
+2021-03-09  10:29:40 Tue root INFO None
+2021-03-09  10:29:40 Tue root ERROR '/tenants'
+Traceback (most recent call last):
+  File "/Users/zhangyishu/PycharmProjects/demo_custom_trigger/bins/libs/pdr_python_sdk/on_demand_action.py", line 50, in run
+    clz().on_request(argv, input_stream, output_stream)
+  File "/Users/zhangyishu/PycharmProjects/demo_custom_trigger/bins/libs/pdr_python_sdk/api/on_demand_api.py", line 98, in on_request
+    self.handle_request(argv, input_stream, output_stream)
+  File "/Users/zhangyishu/PycharmProjects/demo_custom_trigger/bins/libs/pdr_python_sdk/api/on_demand_api.py", line 126, in handle_request
+    response = self.handle_data(packet.body())
+  File "/Users/zhangyishu/PycharmProjects/demo_custom_trigger/bins/libs/pdr_python_sdk/api/on_demand_api.py", line 71, in handle_data
+    return self.do_handle_data(data)
+  File "/Users/zhangyishu/PycharmProjects/demo_custom_trigger/bins/tenants.py", line 52, in do_handle_data
+    res = xy_path[path](**params)
+KeyError: '/tenants'
+2021-03-09  10:29:47 Tue root INFO app root dir is: b
+2021-03-09  10:29:47 Tue root INFO running script using class: [<class '__main__.Tenants'>]
+2021-03-09  10:29:47 Tue root INFO start init
+2021-03-09  10:29:47 Tue root INFO None
+2021-03-09  10:29:47 Tue root ERROR '/tenants'
+Traceback (most recent call last):
+  File "/Users/zhangyishu/PycharmProjects/demo_custom_trigger/bins/libs/pdr_python_sdk/on_demand_action.py", line 50, in run
+    clz().on_request(argv, input_stream, output_stream)
+  File "/Users/zhangyishu/PycharmProjects/demo_custom_trigger/bins/libs/pdr_python_sdk/api/on_demand_api.py", line 98, in on_request
+    self.handle_request(argv, input_stream, output_stream)
+  File "/Users/zhangyishu/PycharmProjects/demo_custom_trigger/bins/libs/pdr_python_sdk/api/on_demand_api.py", line 126, in handle_request
+    response = self.handle_data(packet.body())
+  File "/Users/zhangyishu/PycharmProjects/demo_custom_trigger/bins/libs/pdr_python_sdk/api/on_demand_api.py", line 71, in handle_data
+    return self.do_handle_data(data)
+  File "/Users/zhangyishu/PycharmProjects/demo_custom_trigger/bins/tenants.py", line 52, in do_handle_data
+    res = xy_path[path](**params)
+KeyError: '/tenants'
+2021-03-09  10:30:39 Tue root INFO app root dir is: b
+2021-03-09  10:30:39 Tue root INFO running script using class: [<class '__main__.Tenants'>]
+2021-03-09  10:30:39 Tue root INFO start init
+2021-03-09  10:30:39 Tue root INFO None
+2021-03-09  10:30:39 Tue root ERROR '/tenants'
+Traceback (most recent call last):
+  File "/Users/zhangyishu/PycharmProjects/demo_custom_trigger/bins/libs/pdr_python_sdk/on_demand_action.py", line 50, in run
+    clz().on_request(argv, input_stream, output_stream)
+  File "/Users/zhangyishu/PycharmProjects/demo_custom_trigger/bins/libs/pdr_python_sdk/api/on_demand_api.py", line 98, in on_request
+    self.handle_request(argv, input_stream, output_stream)
+  File "/Users/zhangyishu/PycharmProjects/demo_custom_trigger/bins/libs/pdr_python_sdk/api/on_demand_api.py", line 126, in handle_request
+    response = self.handle_data(packet.body())
+  File "/Users/zhangyishu/PycharmProjects/demo_custom_trigger/bins/libs/pdr_python_sdk/api/on_demand_api.py", line 71, in handle_data
+    return self.do_handle_data(data)
+  File "/Users/zhangyishu/PycharmProjects/demo_custom_trigger/bins/tenants.py", line 52, in do_handle_data
+    res = xy_path[path](**params)
+KeyError: '/tenants'
+2021-03-09  10:30:46 Tue root INFO app root dir is: b
+2021-03-09  10:30:46 Tue root INFO running script using class: [<class '__main__.Tenants'>]
+2021-03-09  10:30:46 Tue root INFO start init
+2021-03-09  10:30:46 Tue root INFO None
+2021-03-09  10:30:46 Tue root ERROR '/tenants'
+Traceback (most recent call last):
+  File "/Users/zhangyishu/PycharmProjects/demo_custom_trigger/bins/libs/pdr_python_sdk/on_demand_action.py", line 50, in run
+    clz().on_request(argv, input_stream, output_stream)
+  File "/Users/zhangyishu/PycharmProjects/demo_custom_trigger/bins/libs/pdr_python_sdk/api/on_demand_api.py", line 98, in on_request
+    self.handle_request(argv, input_stream, output_stream)
+  File "/Users/zhangyishu/PycharmProjects/demo_custom_trigger/bins/libs/pdr_python_sdk/api/on_demand_api.py", line 126, in handle_request
+    response = self.handle_data(packet.body())
+  File "/Users/zhangyishu/PycharmProjects/demo_custom_trigger/bins/libs/pdr_python_sdk/api/on_demand_api.py", line 71, in handle_data
+    return self.do_handle_data(data)
+  File "/Users/zhangyishu/PycharmProjects/demo_custom_trigger/bins/tenants.py", line 52, in do_handle_data
+    res = xy_path[path](**params)
+KeyError: '/tenants'
+2021-03-09  10:31:54 Tue root INFO app root dir is: b
+2021-03-09  10:31:54 Tue root INFO running script using class: [<class '__main__.Tenants'>]
+2021-03-09  10:31:54 Tue root INFO start init
+2021-03-09  10:31:54 Tue root INFO None
+2021-03-09  10:31:54 Tue root ERROR '/tenants'
+Traceback (most recent call last):
+  File "/Users/zhangyishu/PycharmProjects/demo_custom_trigger/bins/libs/pdr_python_sdk/on_demand_action.py", line 50, in run
+    clz().on_request(argv, input_stream, output_stream)
+  File "/Users/zhangyishu/PycharmProjects/demo_custom_trigger/bins/libs/pdr_python_sdk/api/on_demand_api.py", line 98, in on_request
+    self.handle_request(argv, input_stream, output_stream)
+  File "/Users/zhangyishu/PycharmProjects/demo_custom_trigger/bins/libs/pdr_python_sdk/api/on_demand_api.py", line 126, in handle_request
+    response = self.handle_data(packet.body())
+  File "/Users/zhangyishu/PycharmProjects/demo_custom_trigger/bins/libs/pdr_python_sdk/api/on_demand_api.py", line 71, in handle_data
+    return self.do_handle_data(data)
+  File "/Users/zhangyishu/PycharmProjects/demo_custom_trigger/bins/tenants.py", line 52, in do_handle_data
+    res = xy_path[path](**params)
+KeyError: '/tenants'
+2021-03-09  10:32:01 Tue root INFO app root dir is: b
+2021-03-09  10:32:01 Tue root INFO running script using class: [<class '__main__.Tenants'>]
+2021-03-09  10:32:01 Tue root INFO start init
+2021-03-09  10:32:01 Tue root INFO None
+2021-03-09  10:32:43 Tue root INFO app root dir is: b
+2021-03-09  10:32:43 Tue root INFO running script using class: [<class '__main__.Tenants'>]
+2021-03-09  10:32:43 Tue root INFO start init
+2021-03-09  10:32:43 Tue root INFO None
+2021-03-09  10:32:43 Tue root ERROR xieyun_api.XY_APi.get_tenants() argument after ** must be a mapping, not NoneType
+Traceback (most recent call last):
+  File "/Users/zhangyishu/PycharmProjects/demo_custom_trigger/bins/libs/pdr_python_sdk/on_demand_action.py", line 50, in run
+    clz().on_request(argv, input_stream, output_stream)
+  File "/Users/zhangyishu/PycharmProjects/demo_custom_trigger/bins/libs/pdr_python_sdk/api/on_demand_api.py", line 98, in on_request
+    self.handle_request(argv, input_stream, output_stream)
+  File "/Users/zhangyishu/PycharmProjects/demo_custom_trigger/bins/libs/pdr_python_sdk/api/on_demand_api.py", line 126, in handle_request
+    response = self.handle_data(packet.body())
+  File "/Users/zhangyishu/PycharmProjects/demo_custom_trigger/bins/libs/pdr_python_sdk/api/on_demand_api.py", line 71, in handle_data
+    return self.do_handle_data(data)
+  File "/Users/zhangyishu/PycharmProjects/demo_custom_trigger/bins/tenants.py", line 52, in do_handle_data
+    res = xy_path[path](**params)
+TypeError: xieyun_api.XY_APi.get_tenants() argument after ** must be a mapping, not NoneType
+2021-03-09  10:33:49 Tue root INFO app root dir is: b
+2021-03-09  10:33:49 Tue root INFO running script using class: [<class '__main__.Tenants'>]
+2021-03-09  10:33:49 Tue root INFO start init
+2021-03-09  10:33:49 Tue root INFO None
+2021-03-09  10:34:10 Tue root INFO app root dir is: b
+2021-03-09  10:34:10 Tue root INFO running script using class: [<class '__main__.Tenants'>]
+2021-03-09  10:34:10 Tue root INFO start init
+2021-03-09  10:34:10 Tue root INFO None
+2021-03-09  10:45:25 Tue root INFO app root dir is: b
+2021-03-09  10:45:25 Tue root INFO running script using class: [<class '__main__.Tenants'>]
+2021-03-09  10:45:25 Tue root INFO start init
+2021-03-09  10:45:25 Tue root INFO None
+2021-03-09  10:45:25 Tue root ERROR '/tenants/1356430095297376257/users'
+Traceback (most recent call last):
+  File "/Users/zhangyishu/PycharmProjects/demo_custom_trigger/bins/libs/pdr_python_sdk/on_demand_action.py", line 50, in run
+    clz().on_request(argv, input_stream, output_stream)
+  File "/Users/zhangyishu/PycharmProjects/demo_custom_trigger/bins/libs/pdr_python_sdk/api/on_demand_api.py", line 98, in on_request
+    self.handle_request(argv, input_stream, output_stream)
+  File "/Users/zhangyishu/PycharmProjects/demo_custom_trigger/bins/libs/pdr_python_sdk/api/on_demand_api.py", line 126, in handle_request
+    response = self.handle_data(packet.body())
+  File "/Users/zhangyishu/PycharmProjects/demo_custom_trigger/bins/libs/pdr_python_sdk/api/on_demand_api.py", line 71, in handle_data
+    return self.do_handle_data(data)
+  File "/Users/zhangyishu/PycharmProjects/demo_custom_trigger/bins/tenants.py", line 58, in do_handle_data
+    res = xy_path[path]()
+KeyError: '/tenants/1356430095297376257/users'
+2021-03-09  10:45:51 Tue root INFO app root dir is: b
+2021-03-09  10:45:51 Tue root INFO running script using class: [<class '__main__.Tenants'>]
+2021-03-09  10:45:51 Tue root INFO start init
+2021-03-09  10:45:51 Tue root INFO None
+2021-03-09  10:45:51 Tue root ERROR '/tenants/1356430095297376257/users'
+Traceback (most recent call last):
+  File "/Users/zhangyishu/PycharmProjects/demo_custom_trigger/bins/libs/pdr_python_sdk/on_demand_action.py", line 50, in run
+    clz().on_request(argv, input_stream, output_stream)
+  File "/Users/zhangyishu/PycharmProjects/demo_custom_trigger/bins/libs/pdr_python_sdk/api/on_demand_api.py", line 98, in on_request
+    self.handle_request(argv, input_stream, output_stream)
+  File "/Users/zhangyishu/PycharmProjects/demo_custom_trigger/bins/libs/pdr_python_sdk/api/on_demand_api.py", line 126, in handle_request
+    response = self.handle_data(packet.body())
+  File "/Users/zhangyishu/PycharmProjects/demo_custom_trigger/bins/libs/pdr_python_sdk/api/on_demand_api.py", line 71, in handle_data
+    return self.do_handle_data(data)
+  File "/Users/zhangyishu/PycharmProjects/demo_custom_trigger/bins/tenants.py", line 58, in do_handle_data
+    res = xy_path[path]()
+KeyError: '/tenants/1356430095297376257/users'
+2021-03-09  10:45:59 Tue root INFO app root dir is: b
+2021-03-09  10:45:59 Tue root INFO running script using class: [<class '__main__.Tenants'>]
+2021-03-09  10:45:59 Tue root INFO start init
+2021-03-09  10:45:59 Tue root INFO None
+2021-03-09  10:47:17 Tue root INFO app root dir is: b
+2021-03-09  10:47:17 Tue root INFO running script using class: [<class '__main__.Tenants'>]
+2021-03-09  10:47:17 Tue root INFO start init
+2021-03-09  10:47:17 Tue root INFO None
+2021-03-09  10:47:17 Tue root ERROR '/tenants/1356430095297376257/users'
+Traceback (most recent call last):
+  File "/Users/zhangyishu/PycharmProjects/demo_custom_trigger/bins/libs/pdr_python_sdk/on_demand_action.py", line 50, in run
+    clz().on_request(argv, input_stream, output_stream)
+  File "/Users/zhangyishu/PycharmProjects/demo_custom_trigger/bins/libs/pdr_python_sdk/api/on_demand_api.py", line 98, in on_request
+    self.handle_request(argv, input_stream, output_stream)
+  File "/Users/zhangyishu/PycharmProjects/demo_custom_trigger/bins/libs/pdr_python_sdk/api/on_demand_api.py", line 126, in handle_request
+    response = self.handle_data(packet.body())
+  File "/Users/zhangyishu/PycharmProjects/demo_custom_trigger/bins/libs/pdr_python_sdk/api/on_demand_api.py", line 71, in handle_data
+    return self.do_handle_data(data)
+  File "/Users/zhangyishu/PycharmProjects/demo_custom_trigger/bins/tenants.py", line 58, in do_handle_data
+    res = xy_path[path]()
+KeyError: '/tenants/1356430095297376257/users'
+2021-03-09  10:47:32 Tue root INFO app root dir is: b
+2021-03-09  10:47:32 Tue root INFO running script using class: [<class '__main__.Tenants'>]
+2021-03-09  10:47:32 Tue root INFO start init
+2021-03-09  10:47:32 Tue root INFO None
+2021-03-09  10:50:15 Tue root INFO app root dir is: b
+2021-03-09  10:50:15 Tue root INFO running script using class: [<class '__main__.Tenants'>]
+2021-03-09  10:50:15 Tue root INFO start init
+2021-03-09  10:50:15 Tue root INFO None
+2021-03-09  10:51:04 Tue root INFO app root dir is: b
+2021-03-09  10:51:04 Tue root INFO running script using class: [<class '__main__.Tenants'>]
+2021-03-09  10:51:04 Tue root INFO start init
+2021-03-09  10:51:04 Tue root INFO None
+2021-03-09  10:51:04 Tue root ERROR '/tenants/1356430095297376257/users'
+Traceback (most recent call last):
+  File "/Users/zhangyishu/PycharmProjects/demo_custom_trigger/bins/libs/pdr_python_sdk/on_demand_action.py", line 50, in run
+    clz().on_request(argv, input_stream, output_stream)
+  File "/Users/zhangyishu/PycharmProjects/demo_custom_trigger/bins/libs/pdr_python_sdk/api/on_demand_api.py", line 98, in on_request
+    self.handle_request(argv, input_stream, output_stream)
+  File "/Users/zhangyishu/PycharmProjects/demo_custom_trigger/bins/libs/pdr_python_sdk/api/on_demand_api.py", line 126, in handle_request
+    response = self.handle_data(packet.body())
+  File "/Users/zhangyishu/PycharmProjects/demo_custom_trigger/bins/libs/pdr_python_sdk/api/on_demand_api.py", line 71, in handle_data
+    return self.do_handle_data(data)
+  File "/Users/zhangyishu/PycharmProjects/demo_custom_trigger/bins/tenants.py", line 58, in do_handle_data
+    res = xy_path[path]()
+KeyError: '/tenants/1356430095297376257/users'
+2021-03-09  10:51:13 Tue root INFO app root dir is: b
+2021-03-09  10:51:13 Tue root INFO running script using class: [<class '__main__.Tenants'>]
+2021-03-09  10:51:13 Tue root INFO start init
+2021-03-09  10:51:13 Tue root INFO None
+2021-03-09  10:51:13 Tue root ERROR get_users_by_tenantid() missing 1 required positional argument: 'tenantid'
+Traceback (most recent call last):
+  File "/Users/zhangyishu/PycharmProjects/demo_custom_trigger/bins/libs/pdr_python_sdk/on_demand_action.py", line 50, in run
+    clz().on_request(argv, input_stream, output_stream)
+  File "/Users/zhangyishu/PycharmProjects/demo_custom_trigger/bins/libs/pdr_python_sdk/api/on_demand_api.py", line 98, in on_request
+    self.handle_request(argv, input_stream, output_stream)
+  File "/Users/zhangyishu/PycharmProjects/demo_custom_trigger/bins/libs/pdr_python_sdk/api/on_demand_api.py", line 126, in handle_request
+    response = self.handle_data(packet.body())
+  File "/Users/zhangyishu/PycharmProjects/demo_custom_trigger/bins/libs/pdr_python_sdk/api/on_demand_api.py", line 71, in handle_data
+    return self.do_handle_data(data)
+  File "/Users/zhangyishu/PycharmProjects/demo_custom_trigger/bins/tenants.py", line 58, in do_handle_data
+    res = xy_path[key]()
+TypeError: get_users_by_tenantid() missing 1 required positional argument: 'tenantid'
+2021-03-09  10:51:16 Tue root INFO app root dir is: b
+2021-03-09  10:51:16 Tue root INFO running script using class: [<class '__main__.Tenants'>]
+2021-03-09  10:51:16 Tue root INFO start init
+2021-03-09  10:51:16 Tue root INFO None
+2021-03-09  10:51:16 Tue root ERROR get_users_by_tenantid() missing 1 required positional argument: 'tenantid'
+Traceback (most recent call last):
+  File "/Users/zhangyishu/PycharmProjects/demo_custom_trigger/bins/libs/pdr_python_sdk/on_demand_action.py", line 50, in run
+    clz().on_request(argv, input_stream, output_stream)
+  File "/Users/zhangyishu/PycharmProjects/demo_custom_trigger/bins/libs/pdr_python_sdk/api/on_demand_api.py", line 98, in on_request
+    self.handle_request(argv, input_stream, output_stream)
+  File "/Users/zhangyishu/PycharmProjects/demo_custom_trigger/bins/libs/pdr_python_sdk/api/on_demand_api.py", line 126, in handle_request
+    response = self.handle_data(packet.body())
+  File "/Users/zhangyishu/PycharmProjects/demo_custom_trigger/bins/libs/pdr_python_sdk/api/on_demand_api.py", line 71, in handle_data
+    return self.do_handle_data(data)
+  File "/Users/zhangyishu/PycharmProjects/demo_custom_trigger/bins/tenants.py", line 58, in do_handle_data
+    res = xy_path[key]()
+TypeError: get_users_by_tenantid() missing 1 required positional argument: 'tenantid'
+2021-03-09  10:53:46 Tue root INFO app root dir is: b
+2021-03-09  10:53:46 Tue root INFO running script using class: [<class '__main__.Tenants'>]
+2021-03-09  10:53:46 Tue root INFO start init
+2021-03-09  10:53:46 Tue root INFO None
+2021-03-09  10:53:46 Tue root ERROR get_users_by_tenantid() missing 1 required positional argument: 'tenantid'
+Traceback (most recent call last):
+  File "/Users/zhangyishu/PycharmProjects/demo_custom_trigger/bins/libs/pdr_python_sdk/on_demand_action.py", line 50, in run
+    clz().on_request(argv, input_stream, output_stream)
+  File "/Users/zhangyishu/PycharmProjects/demo_custom_trigger/bins/libs/pdr_python_sdk/api/on_demand_api.py", line 98, in on_request
+    self.handle_request(argv, input_stream, output_stream)
+  File "/Users/zhangyishu/PycharmProjects/demo_custom_trigger/bins/libs/pdr_python_sdk/api/on_demand_api.py", line 126, in handle_request
+    response = self.handle_data(packet.body())
+  File "/Users/zhangyishu/PycharmProjects/demo_custom_trigger/bins/libs/pdr_python_sdk/api/on_demand_api.py", line 71, in handle_data
+    return self.do_handle_data(data)
+  File "/Users/zhangyishu/PycharmProjects/demo_custom_trigger/bins/tenants.py", line 56, in do_handle_data
+    res = xy_path[path]()
+TypeError: get_users_by_tenantid() missing 1 required positional argument: 'tenantid'
+2021-03-09  10:54:05 Tue root INFO app root dir is: b
+2021-03-09  10:54:05 Tue root INFO running script using class: [<class '__main__.Tenants'>]
+2021-03-09  10:54:05 Tue root INFO start init
+2021-03-09  10:54:05 Tue root INFO None
+2021-03-09  10:54:05 Tue root ERROR get_users_by_tenantid() missing 1 required positional argument: 'tenantid'
+Traceback (most recent call last):
+  File "/Users/zhangyishu/PycharmProjects/demo_custom_trigger/bins/libs/pdr_python_sdk/on_demand_action.py", line 50, in run
+    clz().on_request(argv, input_stream, output_stream)
+  File "/Users/zhangyishu/PycharmProjects/demo_custom_trigger/bins/libs/pdr_python_sdk/api/on_demand_api.py", line 98, in on_request
+    self.handle_request(argv, input_stream, output_stream)
+  File "/Users/zhangyishu/PycharmProjects/demo_custom_trigger/bins/libs/pdr_python_sdk/api/on_demand_api.py", line 126, in handle_request
+    response = self.handle_data(packet.body())
+  File "/Users/zhangyishu/PycharmProjects/demo_custom_trigger/bins/libs/pdr_python_sdk/api/on_demand_api.py", line 71, in handle_data
+    return self.do_handle_data(data)
+  File "/Users/zhangyishu/PycharmProjects/demo_custom_trigger/bins/tenants.py", line 57, in do_handle_data
+    res = xy_path[path]()
+TypeError: get_users_by_tenantid() missing 1 required positional argument: 'tenantid'
+2021-03-09  10:55:13 Tue root INFO app root dir is: b
+2021-03-09  10:55:13 Tue root INFO running script using class: [<class '__main__.Tenants'>]
+2021-03-09  10:55:13 Tue root INFO start init
+2021-03-09  10:55:13 Tue root INFO None
+2021-03-09  10:55:13 Tue root ERROR get_users_by_tenantid() missing 1 required positional argument: 'tenantid'
+Traceback (most recent call last):
+  File "/Users/zhangyishu/PycharmProjects/demo_custom_trigger/bins/libs/pdr_python_sdk/on_demand_action.py", line 50, in run
+    clz().on_request(argv, input_stream, output_stream)
+  File "/Users/zhangyishu/PycharmProjects/demo_custom_trigger/bins/libs/pdr_python_sdk/api/on_demand_api.py", line 98, in on_request
+    self.handle_request(argv, input_stream, output_stream)
+  File "/Users/zhangyishu/PycharmProjects/demo_custom_trigger/bins/libs/pdr_python_sdk/api/on_demand_api.py", line 126, in handle_request
+    response = self.handle_data(packet.body())
+  File "/Users/zhangyishu/PycharmProjects/demo_custom_trigger/bins/libs/pdr_python_sdk/api/on_demand_api.py", line 71, in handle_data
+    return self.do_handle_data(data)
+  File "/Users/zhangyishu/PycharmProjects/demo_custom_trigger/bins/tenants.py", line 57, in do_handle_data
+    res = xy_path[path]()
+TypeError: get_users_by_tenantid() missing 1 required positional argument: 'tenantid'
+2021-03-09  10:56:47 Tue root INFO app root dir is: b
+2021-03-09  10:56:47 Tue root INFO running script using class: [<class '__main__.Tenants'>]
+2021-03-09  10:56:47 Tue root INFO start init
+2021-03-09  10:56:47 Tue root INFO None
+2021-03-09  10:56:47 Tue root ERROR get_users_by_tenantid() missing 1 required positional argument: 'tenantid'
+Traceback (most recent call last):
+  File "/Users/zhangyishu/PycharmProjects/demo_custom_trigger/bins/libs/pdr_python_sdk/on_demand_action.py", line 50, in run
+    clz().on_request(argv, input_stream, output_stream)
+  File "/Users/zhangyishu/PycharmProjects/demo_custom_trigger/bins/libs/pdr_python_sdk/api/on_demand_api.py", line 98, in on_request
+    self.handle_request(argv, input_stream, output_stream)
+  File "/Users/zhangyishu/PycharmProjects/demo_custom_trigger/bins/libs/pdr_python_sdk/api/on_demand_api.py", line 126, in handle_request
+    response = self.handle_data(packet.body())
+  File "/Users/zhangyishu/PycharmProjects/demo_custom_trigger/bins/libs/pdr_python_sdk/api/on_demand_api.py", line 71, in handle_data
+    return self.do_handle_data(data)
+  File "/Users/zhangyishu/PycharmProjects/demo_custom_trigger/bins/tenants.py", line 57, in do_handle_data
+    res = xy_path[path]()
+TypeError: get_users_by_tenantid() missing 1 required positional argument: 'tenantid'
+2021-03-09  10:57:10 Tue root INFO app root dir is: b
+2021-03-09  10:57:10 Tue root INFO running script using class: [<class '__main__.Tenants'>]
+2021-03-09  10:57:10 Tue root INFO start init
+2021-03-09  10:57:10 Tue root INFO None
+2021-03-09  10:57:10 Tue root ERROR get_users_by_tenantid() missing 1 required positional argument: 'tenantid'
+Traceback (most recent call last):
+  File "/Users/zhangyishu/PycharmProjects/demo_custom_trigger/bins/libs/pdr_python_sdk/on_demand_action.py", line 50, in run
+    clz().on_request(argv, input_stream, output_stream)
+  File "/Users/zhangyishu/PycharmProjects/demo_custom_trigger/bins/libs/pdr_python_sdk/api/on_demand_api.py", line 98, in on_request
+    self.handle_request(argv, input_stream, output_stream)
+  File "/Users/zhangyishu/PycharmProjects/demo_custom_trigger/bins/libs/pdr_python_sdk/api/on_demand_api.py", line 126, in handle_request
+    response = self.handle_data(packet.body())
+  File "/Users/zhangyishu/PycharmProjects/demo_custom_trigger/bins/libs/pdr_python_sdk/api/on_demand_api.py", line 71, in handle_data
+    return self.do_handle_data(data)
+  File "/Users/zhangyishu/PycharmProjects/demo_custom_trigger/bins/tenants.py", line 57, in do_handle_data
+    res = xy_path[path]()
+TypeError: get_users_by_tenantid() missing 1 required positional argument: 'tenantid'
+2021-03-09  10:57:12 Tue root INFO app root dir is: b
+2021-03-09  10:57:12 Tue root INFO running script using class: [<class '__main__.Tenants'>]
+2021-03-09  10:57:12 Tue root INFO start init
+2021-03-09  10:57:12 Tue root INFO None
+2021-03-09  10:57:12 Tue root ERROR get_users_by_tenantid() missing 1 required positional argument: 'tenantid'
+Traceback (most recent call last):
+  File "/Users/zhangyishu/PycharmProjects/demo_custom_trigger/bins/libs/pdr_python_sdk/on_demand_action.py", line 50, in run
+    clz().on_request(argv, input_stream, output_stream)
+  File "/Users/zhangyishu/PycharmProjects/demo_custom_trigger/bins/libs/pdr_python_sdk/api/on_demand_api.py", line 98, in on_request
+    self.handle_request(argv, input_stream, output_stream)
+  File "/Users/zhangyishu/PycharmProjects/demo_custom_trigger/bins/libs/pdr_python_sdk/api/on_demand_api.py", line 126, in handle_request
+    response = self.handle_data(packet.body())
+  File "/Users/zhangyishu/PycharmProjects/demo_custom_trigger/bins/libs/pdr_python_sdk/api/on_demand_api.py", line 71, in handle_data
+    return self.do_handle_data(data)
+  File "/Users/zhangyishu/PycharmProjects/demo_custom_trigger/bins/tenants.py", line 57, in do_handle_data
+    res = xy_path[path]()
+TypeError: get_users_by_tenantid() missing 1 required positional argument: 'tenantid'
+2021-03-09  10:57:14 Tue root INFO app root dir is: b
+2021-03-09  10:57:14 Tue root INFO running script using class: [<class '__main__.Tenants'>]
+2021-03-09  10:57:14 Tue root INFO start init
+2021-03-09  10:57:14 Tue root INFO None
+2021-03-09  10:57:14 Tue root ERROR get_users_by_tenantid() missing 1 required positional argument: 'tenantid'
+Traceback (most recent call last):
+  File "/Users/zhangyishu/PycharmProjects/demo_custom_trigger/bins/libs/pdr_python_sdk/on_demand_action.py", line 50, in run
+    clz().on_request(argv, input_stream, output_stream)
+  File "/Users/zhangyishu/PycharmProjects/demo_custom_trigger/bins/libs/pdr_python_sdk/api/on_demand_api.py", line 98, in on_request
+    self.handle_request(argv, input_stream, output_stream)
+  File "/Users/zhangyishu/PycharmProjects/demo_custom_trigger/bins/libs/pdr_python_sdk/api/on_demand_api.py", line 126, in handle_request
+    response = self.handle_data(packet.body())
+  File "/Users/zhangyishu/PycharmProjects/demo_custom_trigger/bins/libs/pdr_python_sdk/api/on_demand_api.py", line 71, in handle_data
+    return self.do_handle_data(data)
+  File "/Users/zhangyishu/PycharmProjects/demo_custom_trigger/bins/tenants.py", line 57, in do_handle_data
+    res = xy_path[path]()
+TypeError: get_users_by_tenantid() missing 1 required positional argument: 'tenantid'
+2021-03-09  10:57:27 Tue root INFO app root dir is: b
+2021-03-09  10:57:27 Tue root INFO running script using class: [<class '__main__.Tenants'>]
+2021-03-09  10:57:27 Tue root INFO start init
+2021-03-09  10:57:27 Tue root INFO None
+2021-03-09  10:57:27 Tue root ERROR get_users_by_tenantid() missing 1 required positional argument: 'tenantid'
+Traceback (most recent call last):
+  File "/Users/zhangyishu/PycharmProjects/demo_custom_trigger/bins/libs/pdr_python_sdk/on_demand_action.py", line 50, in run
+    clz().on_request(argv, input_stream, output_stream)
+  File "/Users/zhangyishu/PycharmProjects/demo_custom_trigger/bins/libs/pdr_python_sdk/api/on_demand_api.py", line 98, in on_request
+    self.handle_request(argv, input_stream, output_stream)
+  File "/Users/zhangyishu/PycharmProjects/demo_custom_trigger/bins/libs/pdr_python_sdk/api/on_demand_api.py", line 126, in handle_request
+    response = self.handle_data(packet.body())
+  File "/Users/zhangyishu/PycharmProjects/demo_custom_trigger/bins/libs/pdr_python_sdk/api/on_demand_api.py", line 71, in handle_data
+    return self.do_handle_data(data)
+  File "/Users/zhangyishu/PycharmProjects/demo_custom_trigger/bins/tenants.py", line 57, in do_handle_data
+    res = xy_path[path]()
+TypeError: get_users_by_tenantid() missing 1 required positional argument: 'tenantid'
+2021-03-09  10:57:52 Tue root INFO app root dir is: b
+2021-03-09  10:57:52 Tue root INFO running script using class: [<class '__main__.Tenants'>]
+2021-03-09  10:57:52 Tue root INFO start init
+2021-03-09  10:57:52 Tue root INFO None
+2021-03-09  10:57:52 Tue root ERROR get_users_by_tenantid() missing 1 required positional argument: 'tenantid'
+Traceback (most recent call last):
+  File "/Users/zhangyishu/PycharmProjects/demo_custom_trigger/bins/libs/pdr_python_sdk/on_demand_action.py", line 50, in run
+    clz().on_request(argv, input_stream, output_stream)
+  File "/Users/zhangyishu/PycharmProjects/demo_custom_trigger/bins/libs/pdr_python_sdk/api/on_demand_api.py", line 98, in on_request
+    self.handle_request(argv, input_stream, output_stream)
+  File "/Users/zhangyishu/PycharmProjects/demo_custom_trigger/bins/libs/pdr_python_sdk/api/on_demand_api.py", line 126, in handle_request
+    response = self.handle_data(packet.body())
+  File "/Users/zhangyishu/PycharmProjects/demo_custom_trigger/bins/libs/pdr_python_sdk/api/on_demand_api.py", line 71, in handle_data
+    return self.do_handle_data(data)
+  File "/Users/zhangyishu/PycharmProjects/demo_custom_trigger/bins/tenants.py", line 57, in do_handle_data
+    res = xy_path[path]()
+TypeError: get_users_by_tenantid() missing 1 required positional argument: 'tenantid'
+2021-03-09  10:58:11 Tue root INFO app root dir is: b
+2021-03-09  10:58:11 Tue root INFO running script using class: [<class '__main__.Tenants'>]
+2021-03-09  10:58:11 Tue root INFO start init
+2021-03-09  10:58:11 Tue root INFO None
+2021-03-09  10:58:11 Tue root ERROR get_users_by_tenantid() missing 1 required positional argument: 'tenantid'
+Traceback (most recent call last):
+  File "/Users/zhangyishu/PycharmProjects/demo_custom_trigger/bins/libs/pdr_python_sdk/on_demand_action.py", line 50, in run
+    clz().on_request(argv, input_stream, output_stream)
+  File "/Users/zhangyishu/PycharmProjects/demo_custom_trigger/bins/libs/pdr_python_sdk/api/on_demand_api.py", line 98, in on_request
+    self.handle_request(argv, input_stream, output_stream)
+  File "/Users/zhangyishu/PycharmProjects/demo_custom_trigger/bins/libs/pdr_python_sdk/api/on_demand_api.py", line 126, in handle_request
+    response = self.handle_data(packet.body())
+  File "/Users/zhangyishu/PycharmProjects/demo_custom_trigger/bins/libs/pdr_python_sdk/api/on_demand_api.py", line 71, in handle_data
+    return self.do_handle_data(data)
+  File "/Users/zhangyishu/PycharmProjects/demo_custom_trigger/bins/tenants.py", line 57, in do_handle_data
+    res = xy_path[path]()
+TypeError: get_users_by_tenantid() missing 1 required positional argument: 'tenantid'
+2021-03-09  10:58:47 Tue root INFO app root dir is: b
+2021-03-09  10:58:47 Tue root INFO running script using class: [<class '__main__.Tenants'>]
+2021-03-09  10:58:47 Tue root INFO start init
+2021-03-09  10:58:47 Tue root INFO None
+2021-03-09  11:00:44 Tue root INFO app root dir is: b
+2021-03-09  11:00:44 Tue root INFO running script using class: [<class '__main__.Tenants'>]
+2021-03-09  11:00:44 Tue root INFO start init
+2021-03-09  11:00:44 Tue root INFO None
+2021-03-09  11:00:44 Tue root INFO app root dir is: b
+2021-03-09  11:00:44 Tue root INFO running script using class: [<class '__main__.Tenants'>]
+2021-03-09  11:00:44 Tue root INFO start init
+2021-03-09  11:00:44 Tue root INFO None
+2021-03-09  11:00:44 Tue root INFO app root dir is: b
+2021-03-09  11:00:44 Tue root INFO running script using class: [<class '__main__.Tenants'>]
+2021-03-09  11:00:44 Tue root INFO start init
+2021-03-09  11:00:44 Tue root INFO None
+2021-03-09  11:01:00 Tue root INFO app root dir is: b
+2021-03-09  11:01:00 Tue root INFO running script using class: [<class '__main__.Tenants'>]
+2021-03-09  11:01:00 Tue root INFO start init
+2021-03-09  11:01:00 Tue root INFO None
+2021-03-09  11:01:02 Tue root INFO app root dir is: b
+2021-03-09  11:01:02 Tue root INFO running script using class: [<class '__main__.Tenants'>]
+2021-03-09  11:01:02 Tue root INFO start init
+2021-03-09  11:01:02 Tue root INFO None
+2021-03-09  11:01:02 Tue root INFO app root dir is: b
+2021-03-09  11:01:02 Tue root INFO running script using class: [<class '__main__.Tenants'>]
+2021-03-09  11:01:02 Tue root INFO start init
+2021-03-09  11:01:02 Tue root INFO None
+2021-03-09  11:02:07 Tue root INFO app root dir is: b
+2021-03-09  11:02:07 Tue root INFO running script using class: [<class '__main__.Tenants'>]
+2021-03-09  11:02:07 Tue root INFO start init
+2021-03-09  11:02:07 Tue root INFO None
+2021-03-09  11:02:07 Tue root INFO app root dir is: b
+2021-03-09  11:02:07 Tue root INFO running script using class: [<class '__main__.Tenants'>]
+2021-03-09  11:02:07 Tue root INFO start init
+2021-03-09  11:02:07 Tue root INFO None
+2021-03-09  11:02:07 Tue root INFO app root dir is: b
+2021-03-09  11:02:07 Tue root INFO running script using class: [<class '__main__.Tenants'>]
+2021-03-09  11:02:07 Tue root INFO start init
+2021-03-09  11:02:07 Tue root INFO None
+2021-03-09  11:03:07 Tue root INFO app root dir is: b
+2021-03-09  11:03:07 Tue root INFO running script using class: [<class '__main__.Tenants'>]
+2021-03-09  11:03:07 Tue root INFO start init
+2021-03-09  11:03:07 Tue root INFO None
+2021-03-09  11:03:07 Tue root INFO app root dir is: b
+2021-03-09  11:03:07 Tue root INFO running script using class: [<class '__main__.Tenants'>]
+2021-03-09  11:03:07 Tue root INFO start init
+2021-03-09  11:03:07 Tue root INFO None
+2021-03-09  11:03:07 Tue root INFO app root dir is: b
+2021-03-09  11:03:07 Tue root INFO running script using class: [<class '__main__.Tenants'>]
+2021-03-09  11:03:07 Tue root INFO start init
+2021-03-09  11:03:07 Tue root INFO None
+2021-03-09  11:21:27 Tue root INFO app root dir is: b
+2021-03-09  11:21:27 Tue root INFO running script using class: [<class '__main__.Tenants'>]
+2021-03-09  11:21:27 Tue root INFO start init
+2021-03-09  11:21:27 Tue root INFO None
+2021-03-09  11:21:27 Tue root ERROR 'UserAPI' object has no attribute 'get_templates'
+Traceback (most recent call last):
+  File "/Users/zhangyishu/PycharmProjects/demo_custom_trigger/bins/libs/pdr_python_sdk/on_demand_action.py", line 50, in run
+    clz().on_request(argv, input_stream, output_stream)
+  File "/Users/zhangyishu/PycharmProjects/demo_custom_trigger/bins/libs/pdr_python_sdk/api/on_demand_api.py", line 98, in on_request
+    self.handle_request(argv, input_stream, output_stream)
+  File "/Users/zhangyishu/PycharmProjects/demo_custom_trigger/bins/libs/pdr_python_sdk/api/on_demand_api.py", line 126, in handle_request
+    response = self.handle_data(packet.body())
+  File "/Users/zhangyishu/PycharmProjects/demo_custom_trigger/bins/libs/pdr_python_sdk/api/on_demand_api.py", line 71, in handle_data
+    return self.do_handle_data(data)
+  File "/Users/zhangyishu/PycharmProjects/demo_custom_trigger/bins/tenants.py", line 51, in do_handle_data
+    "/templates": self.xy_conn.get_templates
+AttributeError: 'UserAPI' object has no attribute 'get_templates'
+2021-03-09  11:21:33 Tue root INFO app root dir is: b
+2021-03-09  11:21:33 Tue root INFO running script using class: [<class '__main__.Tenants'>]
+2021-03-09  11:21:33 Tue root INFO start init
+2021-03-09  11:21:33 Tue root INFO None
+2021-03-09  11:21:33 Tue root ERROR 'UserAPI' object has no attribute 'get_templates'
+Traceback (most recent call last):
+  File "/Users/zhangyishu/PycharmProjects/demo_custom_trigger/bins/libs/pdr_python_sdk/on_demand_action.py", line 50, in run
+    clz().on_request(argv, input_stream, output_stream)
+  File "/Users/zhangyishu/PycharmProjects/demo_custom_trigger/bins/libs/pdr_python_sdk/api/on_demand_api.py", line 98, in on_request
+    self.handle_request(argv, input_stream, output_stream)
+  File "/Users/zhangyishu/PycharmProjects/demo_custom_trigger/bins/libs/pdr_python_sdk/api/on_demand_api.py", line 126, in handle_request
+    response = self.handle_data(packet.body())
+  File "/Users/zhangyishu/PycharmProjects/demo_custom_trigger/bins/libs/pdr_python_sdk/api/on_demand_api.py", line 71, in handle_data
+    return self.do_handle_data(data)
+  File "/Users/zhangyishu/PycharmProjects/demo_custom_trigger/bins/tenants.py", line 51, in do_handle_data
+    "/templates": self.xy_conn.get_templates
+AttributeError: 'UserAPI' object has no attribute 'get_templates'
+2021-03-09  11:21:46 Tue root INFO app root dir is: b
+2021-03-09  11:21:46 Tue root INFO running script using class: [<class '__main__.Tenants'>]
+2021-03-09  11:21:46 Tue root INFO start init
+2021-03-09  11:21:46 Tue root INFO None
+2021-03-09  11:21:46 Tue root ERROR 'UserAPI' object has no attribute 'get_templates'
+Traceback (most recent call last):
+  File "/Users/zhangyishu/PycharmProjects/demo_custom_trigger/bins/libs/pdr_python_sdk/on_demand_action.py", line 50, in run
+    clz().on_request(argv, input_stream, output_stream)
+  File "/Users/zhangyishu/PycharmProjects/demo_custom_trigger/bins/libs/pdr_python_sdk/api/on_demand_api.py", line 98, in on_request
+    self.handle_request(argv, input_stream, output_stream)
+  File "/Users/zhangyishu/PycharmProjects/demo_custom_trigger/bins/libs/pdr_python_sdk/api/on_demand_api.py", line 126, in handle_request
+    response = self.handle_data(packet.body())
+  File "/Users/zhangyishu/PycharmProjects/demo_custom_trigger/bins/libs/pdr_python_sdk/api/on_demand_api.py", line 71, in handle_data
+    return self.do_handle_data(data)
+  File "/Users/zhangyishu/PycharmProjects/demo_custom_trigger/bins/tenants.py", line 51, in do_handle_data
+    "/templates": self.xy_conn.get_templates
+AttributeError: 'UserAPI' object has no attribute 'get_templates'
+2021-03-09  11:22:02 Tue root INFO app root dir is: b
+2021-03-09  11:22:02 Tue root INFO running script using class: [<class '__main__.Tenants'>]
+2021-03-09  11:22:02 Tue root INFO start init
+2021-03-09  11:22:02 Tue root INFO None
+2021-03-09  11:22:02 Tue root INFO app root dir is: b
+2021-03-09  11:22:02 Tue root INFO running script using class: [<class '__main__.Tenants'>]
+2021-03-09  11:22:02 Tue root INFO start init
+2021-03-09  11:22:02 Tue root INFO None
+2021-03-09  11:22:29 Tue root INFO app root dir is: b
+2021-03-09  11:22:29 Tue root INFO running script using class: [<class '__main__.Tenants'>]
+2021-03-09  11:22:29 Tue root INFO start init
+2021-03-09  11:22:29 Tue root INFO None
+2021-03-09  11:22:29 Tue root ERROR '/templates'
+Traceback (most recent call last):
+  File "/Users/zhangyishu/PycharmProjects/demo_custom_trigger/bins/libs/pdr_python_sdk/on_demand_action.py", line 50, in run
+    clz().on_request(argv, input_stream, output_stream)
+  File "/Users/zhangyishu/PycharmProjects/demo_custom_trigger/bins/libs/pdr_python_sdk/api/on_demand_api.py", line 98, in on_request
+    self.handle_request(argv, input_stream, output_stream)
+  File "/Users/zhangyishu/PycharmProjects/demo_custom_trigger/bins/libs/pdr_python_sdk/api/on_demand_api.py", line 126, in handle_request
+    response = self.handle_data(packet.body())
+  File "/Users/zhangyishu/PycharmProjects/demo_custom_trigger/bins/libs/pdr_python_sdk/api/on_demand_api.py", line 71, in handle_data
+    return self.do_handle_data(data)
+  File "/Users/zhangyishu/PycharmProjects/demo_custom_trigger/bins/message.py", line 45, in do_handle_data
+    res = xy_path[path]()
+KeyError: '/templates'
+2021-03-09  11:22:38 Tue root INFO app root dir is: b
+2021-03-09  11:22:38 Tue root INFO running script using class: [<class '__main__.Tenants'>]
+2021-03-09  11:22:38 Tue root INFO start init
+2021-03-09  11:22:38 Tue root INFO None

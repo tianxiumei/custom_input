@@ -1,0 +1,9 @@
+#!/usr/bin/env bash
+
+cp -Rf lib/user_input.css ../appserver/static/custom_triggers/src_trigger/user_input.css
+cp -Rf lib/user_input.js ../appserver/static/custom_triggers/src_trigger/user_input.js
+
+cd ..
+appname=$(basename `pwd`)
+cd ..
+tar -czvf "${appname}.tar.gz" --exclude="${appname}/develop" $appname

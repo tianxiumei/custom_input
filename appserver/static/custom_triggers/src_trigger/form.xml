@@ -1,0 +1,12 @@
+<form>
+  <input required="true" type="dropdown" field="tenanatid" token="tenanatid">
+   <label>租户</label>
+   <api>
+    <url>/custom/v1/src_trigger/tenants</url>
+    <field-name>data</field-name>
+   </api>
+  </input>
+  <input styleSrc="user_input.css" required="true" type="custom" field="userid" src="user_input.js">
+    <label>角色</label>
+  </input>
+</form>

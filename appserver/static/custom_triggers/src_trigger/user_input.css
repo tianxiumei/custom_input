@@ -1,0 +1,10 @@
+.spinContainter_3kzHv {
+  position: relative;
+}
+.spinContainter_3kzHv .spin_13oVc {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
+
