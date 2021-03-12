@@ -11,7 +11,7 @@ class XY_API:
         self.url = url
         self.headers = {
             'Accept': '*/*',
-            'Authorization': self.token
+            'Authorization': self.token,
         }
 
     def get(self, path, **kwargs):
