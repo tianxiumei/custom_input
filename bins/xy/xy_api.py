@@ -11,7 +11,7 @@ class XY_API:
         self.url = url
         self.headers = {
             'Accept': '*/*',
-            'Authorization': self.token,
+            'SRC-No-Trace-Id': "QN_CONNECT"
         }
 
     def get(self, path, **kwargs):

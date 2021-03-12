@@ -11,7 +11,7 @@ import mimetypes
 
 class MessageApi(XY_API):
     def __init__(self):
-        self.url = "http://116.228.13.134:31385/api/message-svc"
+        self.url = "http://127.0.0.1:8080/src-messgae-svc"
         super().__init__(self.url)
 
     def get_templates(self):
