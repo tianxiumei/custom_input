@@ -7,7 +7,7 @@ from xy.xy_api import XY_API
 
 class UserAPI(XY_API):
     def __init__(self):
-        self.url = "http://116.228.13.134:31385/api/user-svc"
+        self.url = "http://127.0.0.1:8080/src-user-svc"
         super().__init__(self.url)
 
     def get_tenants(self):
